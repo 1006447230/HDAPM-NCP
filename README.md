@@ -1,1 +1,0 @@
-# HDAPM-NCP
