@@ -2,7 +2,7 @@
 
 This repository provides the data and codes for model HDAPM-NCP, which can be used to predict herb-disease associations. Several herb and disease properties are employed to construct multiple herb and disease kernels. Above kernels are fused into one herb kernel and one disease kernel. Network consistency projection is applied to the herb and disease kernels as well as the association adjacency matrix to generate the recommendation matrix. 
 
-![Figure 1](img/Figure 1.jpg)
+![Figure 1](https://github.com/1006447230/HDAPM-NCP/blob/main/HDAPM-NCP/img/Figure%201.jpg)
 
 # Datasets
 
