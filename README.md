@@ -104,8 +104,31 @@ The five-fold cross-validation data is stored in the **data_cross_verification**
   - Main program entry file.
 
 ------
+### **4. Other Validation Strategies: External Validation Dataset**
 
+#### Includes:
 
+- `Five-fold-cross-validation-grouping/`
+  - A folder used for splitting data for five-fold cross-validation.
+- `Split-data.py`
+  - Code: Used to split the data, dividing 400 diseases into two groups: D1 and D2. D1 accounts for 80% of the total number of diseases, while D2 accounts for 20%. Similarly, 25 herbs are divided into two groups: H1 and H2, with H1 accounting for 80% and H2 for 20%.
+- `Main-A.py`
+  - Main program entry file (using A as the external validation dataset).
+- `Main-B.py`
+  - Main program entry file (using B as the external validation dataset).
+- `Main-C.py`
+  - Main program entry file (using C as the external validation dataset).
+- `Forecast-result/`
+  - Folder for storing prediction results.
+
+The meanings of A, B, and C are as follows:
+
+- **A** = {(d, h) ∣ d ∈ D2, h ∈ H2}
+- **B** = {(d, h) ∣ d ∈ D2, h ∈ H1}
+- **C** = {(d, h) ∣ d ∈ D1, h ∈ H2}
+  
+
+------
 
 # Requirements
 
